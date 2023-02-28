@@ -68,6 +68,26 @@
         display: block;
         border: solid 1px black;
         padding: 10px 15px;
+        text-decoration: none;
+        color: rgb(233, 122, 122);
+    }
+
+    nav a:hover,
+    nav a:active {
+        color: red;
+    }
+
+    header {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .header-nav {
+        font-size: 1.1em;
+    }
+
+    section {
+        margin: 15px 0;
     }
 }
 
