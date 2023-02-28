@@ -9,6 +9,19 @@
 </head>
 <body>
     <main id="main-doc">
+        <nav id="navbar">
+            <header class="header-nav">
+                Ruby documentation
+            </header>
+            <div class="link-container">
+                <a href="#name-of-language" class="nav-link">Ruby</a>
+                <a href="#variables" class="nav-link">Variables</a>
+                <a href="#methods" class="nav-link">Methods</a>
+                <a href="#loops" class="nav-link">Loops</a>
+                <a href="#hashes" class="nav-link">Hashes</a>
+            </div>
+        </nav>
+        <div class="divider"></div>
         <section id="name-of-language" class="main-section">
             <header>
                 Ruby
@@ -37,6 +50,22 @@
                 MYCONSTANT = "hello"
                 => "hello"
             </code>
+            <p class="description">
+                Variables are declared and assigned values by placing the variable name and the value either side of the assignment operator (=). For example, to assign a value of 10 to a variable we will designate as "y" we would write the following:
+            </p>
+            <code>
+                y = 10
+            </code>
+            <p class="description">
+                In common with some other scripting languages, Ruby supports something called parallel assignment. This is useful if you need to assign values to a number of variables.
+                 One way to do this would be as follows:
+            </p>
+            <code>
+                a = 10
+                b = 20
+                c = 30
+                d = 40
+            </code>
         </section>
         <section id="methods" class="main-section">
             <header>
@@ -49,6 +78,12 @@
             <p class="description">
                 A method in Ruby is a set of expressions that returns a value. With methods, one can organize their code into subroutines that can be easily invoked from other areas of their program. Other languages sometimes refer to this as a function. A method may be defined as a part of a class or separately.
             </p>
+            <code>
+                def name( arg1, arg2, arg3, ... )
+                    .. ruby code ..
+                    return value
+                end
+            </code>
         </section>
         <section id="loops" class="main-section">
             <header>
@@ -60,6 +95,13 @@
             <p class="description">
                 Given these facts, it should come as no surprise that just about every programming language, Ruby included, provide mechanisms for instructing a computer system to repeat tasks.
             </p>
+            <code>
+                i = 0
+                while i < 5 do
+                    puts i
+                    i += 1
+                end
+            </code>
         </section>
         <section id="hashes" class="main-section">
             <header>
@@ -71,7 +113,13 @@
             <p class="description">
                 Using a hash in your Ruby programs can speed up your code when used in the right situation.
             </p>
-
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
+            </ul>
         </section>
     </main>
 </body>
