@@ -22,105 +22,107 @@
             </div>
         </nav>
         <div class="divider"></div>
-        <section id="name-of-language" class="main-section">
-            <header>
-                Ruby
-            </header>
-            <p class="description">
-                Ruby was created by Yukihiro Matsumoto (more affectionately known as Matz) in Japan starting in 1993. Matz essentially kept Ruby to himself until 1995 when he released it to the public. Ruby quickly gained a following in Matz's home country of Japan in the following years, and finally gained recognition in the rest of the programming world beginning in the year 2000.
-                 From that point on Ruby has grown in popularity, particularly because of the popularity of the Ruby on Rails web application development framework.
-            </p>
-            <p class="description">
-                Ruby is an object-oriented interpreted scripting language. When we say it is interpreted we mean to say that the Ruby source code is compiled by an interpreter at the point of execution (similar in this regard to JavaScript and PHP).
-                 This contrasts with compiled languages such as C or C++ where the code is pre-compiled into a binary format targeted to run on a specific brand of microprocessor.
-            </p>
-        </section>
-        <section id="variables" class="main-section">
-            <header>
-                Variables
-            </header>
-            <p class="description">
-                Variables are essentially a way to store a value and assign a name to that value for reference purposes. Variables take various forms ranging from integers to strings of characters. In this chapter we will take a look at how variables are declared and converted. 
-                We will also look at the much simpler area of Ruby constants.
-            </p>
-            <p class="description">
-                A Ruby constant is used to store a value for the duration of a Ruby program's execution. Constants are declared by beginning the variable name with a capital letter (a common convention for declaring constants is to use uppercase letters for the entire name). For example:
-            </p>
-            <code>
-                MYCONSTANT = "hello"
-                => "hello"
-            </code>
-            <p class="description">
-                Variables are declared and assigned values by placing the variable name and the value either side of the assignment operator (=). For example, to assign a value of 10 to a variable we will designate as "y" we would write the following:
-            </p>
-            <code>
-                y = 10
-            </code>
-            <p class="description">
-                In common with some other scripting languages, Ruby supports something called parallel assignment. This is useful if you need to assign values to a number of variables.
-                 One way to do this would be as follows:
-            </p>
-            <code>
-                a = 10
-                b = 20
-                c = 30
-                d = 40
-            </code>
-        </section>
-        <section id="methods" class="main-section">
-            <header>
-                Methods
-            </header>
-            <p class="description">
-                Ruby methods provide a way to organize code and promote re-use. Rather than create long sections of Ruby code, the code is instead organized into logical groups that can be called when needed and re-used without having to re-write the same code over and over.
-                 Methods are simple to use, in fact you only need to do two things with a method, declare it and call it.
-            </p>
-            <p class="description">
-                A method in Ruby is a set of expressions that returns a value. With methods, one can organize their code into subroutines that can be easily invoked from other areas of their program. Other languages sometimes refer to this as a function. A method may be defined as a part of a class or separately.
-            </p>
-            <code>
-                def name( arg1, arg2, arg3, ... )
-                    .. ruby code ..
-                    return value
-                end
-            </code>
-        </section>
-        <section id="loops" class="main-section">
-            <header>
-                Loops
-            </header>
-            <p class="description">
-                If computers do one thing well it is performing tasks very quickly. One thing computers do even better is performing the same task over and over again until specific criteria are met (or even infinitely if that is what is required). One thing that computers are very bad at, however, is doing anything without being told to do it.
-            </p>
-            <p class="description">
-                Given these facts, it should come as no surprise that just about every programming language, Ruby included, provide mechanisms for instructing a computer system to repeat tasks.
-            </p>
-            <code>
-                i = 0
-                while i < 5 do
-                    puts i
-                    i += 1
-                end
-            </code>
-        </section>
-        <section id="hashes" class="main-section">
-            <header>
-                Hashes
-            </header>
-            <p class="description">
-                A hash is a data structure used to store data in the form of UNIQUE key-value pairs. Unlike arrays, there are no numerical indexes, you access the hash values with keys.
-            </p>
-            <p class="description">
-                Using a hash in your Ruby programs can speed up your code when used in the right situation.
-            </p>
-            <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
-            </ul>
-        </section>
+        <div class="section-container">
+            <section id="name-of-language" class="main-section">
+                <header>
+                    Ruby
+                </header>
+                <p class="description">
+                    Ruby was created by Yukihiro Matsumoto (more affectionately known as Matz) in Japan starting in 1993. Matz essentially kept Ruby to himself until 1995 when he released it to the public. Ruby quickly gained a following in Matz's home country of Japan in the following years, and finally gained recognition in the rest of the programming world beginning in the year 2000.
+                    From that point on Ruby has grown in popularity, particularly because of the popularity of the Ruby on Rails web application development framework.
+                </p>
+                <p class="description">
+                    Ruby is an object-oriented interpreted scripting language. When we say it is interpreted we mean to say that the Ruby source code is compiled by an interpreter at the point of execution (similar in this regard to JavaScript and PHP).
+                    This contrasts with compiled languages such as C or C++ where the code is pre-compiled into a binary format targeted to run on a specific brand of microprocessor.
+                </p>
+            </section>
+            <section id="variables" class="main-section">
+                <header>
+                    Variables
+                </header>
+                <p class="description">
+                    Variables are essentially a way to store a value and assign a name to that value for reference purposes. Variables take various forms ranging from integers to strings of characters. In this chapter we will take a look at how variables are declared and converted. 
+                    We will also look at the much simpler area of Ruby constants.
+                </p>
+                <p class="description">
+                    A Ruby constant is used to store a value for the duration of a Ruby program's execution. Constants are declared by beginning the variable name with a capital letter (a common convention for declaring constants is to use uppercase letters for the entire name). For example:
+                </p>
+                <code>
+                    MYCONSTANT = "hello"
+                    => "hello"
+                </code>
+                <p class="description">
+                    Variables are declared and assigned values by placing the variable name and the value either side of the assignment operator (=). For example, to assign a value of 10 to a variable we will designate as "y" we would write the following:
+                </p>
+                <code>
+                    y = 10
+                </code>
+                <p class="description">
+                    In common with some other scripting languages, Ruby supports something called parallel assignment. This is useful if you need to assign values to a number of variables.
+                    One way to do this would be as follows:
+                </p>
+                <code>
+                    a = 10
+                    b = 20
+                    c = 30
+                    d = 40
+                </code>
+            </section>
+            <section id="methods" class="main-section">
+                <header>
+                    Methods
+                </header>
+                <p class="description">
+                    Ruby methods provide a way to organize code and promote re-use. Rather than create long sections of Ruby code, the code is instead organized into logical groups that can be called when needed and re-used without having to re-write the same code over and over.
+                    Methods are simple to use, in fact you only need to do two things with a method, declare it and call it.
+                </p>
+                <p class="description">
+                    A method in Ruby is a set of expressions that returns a value. With methods, one can organize their code into subroutines that can be easily invoked from other areas of their program. Other languages sometimes refer to this as a function. A method may be defined as a part of a class or separately.
+                </p>
+                <code>
+                    def name( arg1, arg2, arg3, ... )
+                        .. ruby code ..
+                        return value
+                    end
+                </code>
+            </section>
+            <section id="loops" class="main-section">
+                <header>
+                    Loops
+                </header>
+                <p class="description">
+                    If computers do one thing well it is performing tasks very quickly. One thing computers do even better is performing the same task over and over again until specific criteria are met (or even infinitely if that is what is required). One thing that computers are very bad at, however, is doing anything without being told to do it.
+                </p>
+                <p class="description">
+                    Given these facts, it should come as no surprise that just about every programming language, Ruby included, provide mechanisms for instructing a computer system to repeat tasks.
+                </p>
+                <code>
+                    i = 0
+                    while i < 5 do
+                        puts i
+                        i += 1
+                    end
+                </code>
+            </section>
+            <section id="hashes" class="main-section">
+                <header>
+                    Hashes
+                </header>
+                <p class="description">
+                    A hash is a data structure used to store data in the form of UNIQUE key-value pairs. Unlike arrays, there are no numerical indexes, you access the hash values with keys.
+                </p>
+                <p class="description">
+                    Using a hash in your Ruby programs can speed up your code when used in the right situation.
+                </p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid officiis, atque non tempora vero eaque suscipit eligendi recusandae accusantium facilis ad, eius rerum? Voluptates velit non recusandae ipsum ab?</li>
+                </ul>
+            </section>
+        </div>
     </main>
 </body>
 </html>
